@@ -1,4 +1,4 @@
-package Hash;
+package Chapter1;
 
 import java.util.*; 
 
