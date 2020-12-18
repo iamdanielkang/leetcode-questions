@@ -20,7 +20,7 @@ public class IsUnique {
 		System.out.println("Hashmap: " + isUnique2(str));
     }
 
-	// Second method using an array. Essentially, I check that the values after the current char are not 
+	// Brute force. Essentially, I check that the values after the current char are not 
 	// the same, otherwise, you return false.
 	public static Boolean isUnique2(String s) {
 
