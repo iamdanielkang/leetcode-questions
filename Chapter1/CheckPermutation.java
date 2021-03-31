@@ -33,7 +33,7 @@ public class CheckPermutation {
             char currChar = s2.charAt(i);
             map1.put(currChar, map1.getOrDefault(currChar, 0) + 1);
         }
-        
+            
         for(int i = 0; i < s1.length(); i++){
             char currChar = s1.charAt(i);
             map2.put(currChar, map2.getOrDefault(currChar, 0) + 1);
